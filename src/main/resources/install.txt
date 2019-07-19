@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=<./RXTXcomm.jar> -DgroupId=<gnu> -DartifactId=<io> -Dversion=<0.0.1> -Dpackaging=<packaging> -DgeneratePom=true
