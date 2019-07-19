@@ -23,7 +23,8 @@
             <groupId>gnu</groupId>
             <artifactId>io</artifactId>
             <version>0.0.1</version>
-<!--            <scope>system</scope>
+<!--            <type>jar</type>
+            <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/RXTXcomm.jar</systemPath>-->
         </dependency>
         <dependency>
@@ -62,7 +63,7 @@
                 </configuration>
             </plugin>
             
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-install-plugin</artifactId>
                 <version>2.5.2</version>
@@ -73,7 +74,7 @@
                             <goal>install-file</goal>
                         </goals>
                         <configuration>
-                            <file>./src/main/resources/RXTXcomm.jar</file>
+                            <file>${project.basedir}/src/main/resources/RXTXcomm.jar</file>
                             <groupId>gnu</groupId>
                             <artifactId>io</artifactId>
                             <version>0.0.1</version>
@@ -81,7 +82,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
             <!-- Maven Assembly Plugin -->
             <plugin>
